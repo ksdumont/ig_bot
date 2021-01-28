@@ -46,7 +46,7 @@ def main():
     browser = webdriver.Chrome()
     login(browser)
 
-    tags = reversed(primary_yoga_tags)
+    tags = reversed(zeke_tags)
 
     start_time = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 
